@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ronald Fallas Rojas</title>
+</head>
+
+<body>
+  <header>
+    <svg height="150" width="500">
+      <defs>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+          <stop offset="0%" style="stop-color:rgb(0,255,0);stop-opacity:0" />
+          <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+        </radialGradient>
+      </defs>
+      <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+       <text fill="#000000" font-size="45" font-family="Verdana" x="55" y="86">RFR</text>
+      Ronald Fallas Rojas
+    </svg>
+    <h1>Curriculum Vitae</h1>
+      <h2>Información Personal</h2>
+    <h3>Ronald Fallas Rojas</h3>
+    <h3>Costa Rica, 20-12-17</h3>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+
+  </nav>
+  <h2>Educación</h2>
+  <section>
+    <table border=1>
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>UMCA</td>
+        <td>San José</td>
+        <td>Sí</td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>UMCA</td>
+        <td>San José</td>
+        <td>Sí</td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>UNED</td>
+        <td>Cartago</td>
+        <td>En Proceso</td>
+      </tr>
+      <tr>
+        <td>2006</td>
+        <td>ITCR</td>
+        <td>Cartago</td>
+        <td>Sí</td>
+      </tr>
+    </table>
+
+  </section>
+  <h3>Agregar estudios:</h3>
+  <section>
+    <form autocomplete="on" name="Estudios" >
+      <fieldset>
+        <legend>Estudios</legend>
+        <label for="agno">Año </label><select id="agno"><option>2017</option><option>2016</option><option>2015</option></select>
+      </br>
+      </br>
+        <label for="institucion">Institución </label><input type="text" id="institucion" required  ></input>
+        </br>
+        </br>
+        <label for="lugar">Lugar </label><input type="textarea" id="lugar" required  ></input>
+        </br>
+        </br>
+<label for="culmino">¿Culminó? </label><input type="radio" name="culmino" value="1" checked> Sí</input><input type="radio" name="culmino" value="0"> No</input>
+</br>
+</br>
+<input type="submit" id="lugar" required  ></input>
+      </fieldset>
+
+    </form>
+  </section>
+  <footer>
+    <span>Email:</span><a href="mailto:rfallas@gmail.com">rfallas@gmail.com</a><span> Tel:85761976</span><span> Dir:Costa Rica</span>
+
+  </footer>
+</body>
+
+</html>
